@@ -11,7 +11,7 @@ foreach($_SERVER as $x =>$y){
     }
     echo "<br>";
 }
-
+$_ENV = getenv();
 foreach($_ENV as $a =>$b){ 
  
     echo  $a;
